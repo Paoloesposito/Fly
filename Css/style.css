@@ -63,6 +63,11 @@
   border-radius: 50%;
   margin-bottom: 20px;
 }
-.rating-stars {
-  color: #ffc107; /* Colore delle stelline (giallo) */
+.testimonial-card:hover .rating-stars {
+  transform: scale(2); /* Ingrandisci le stelle al passaggio del mouse */
+}
+/* Effetto hover per le recensioni */
+.rating-stars:hover {
+  transform: scale(1.8); /* Ingrandisci leggermente la recensione */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiungi una leggera ombra */
 }
