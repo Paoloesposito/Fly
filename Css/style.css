@@ -3,10 +3,33 @@
   justify-content: center;
   align-items: center;
 }
+/* Aggiungi una transizione di scala al logo */
+.navbar-brand img {
+  transition: transform 0.3s ease-in-out; /* Tempo di transizione e funzione di accelerazione */
+}
+
+/* Aggiungi l'effetto di scala al passaggio del mouse */
+.navbar-brand img:hover {
+  transform: scale(
+    1.1
+  ); /* Modifica questo valore per controllare l'intensità dello zoom-in o zoom-out */
+}
 
 .navbar-nav .nav-link {
   font-size: 20px;
   margin: 0 15px;
+  color: blue;
+}
+
+.navbar {
+  background-color: #f8f9fa; /* Sostituisci con il tuo colore preferito */
+  color: white; /* Sostituisci con il tuo colore preferito per il testo */
+  border-radius: 100px;
+}
+
+/* Aggiungi animazione di hover ai link del menu */
+.navbar-nav .nav-link:hover {
+  color: white; /* Sostituisci con il tuo colore preferito per l'hover */
 }
 
 /* Personalizza il colore di sfondo della NavBar */
