@@ -1,0 +1,31 @@
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+/* Personalizza il colore di sfondo della NavBar */
+.bg-base {
+  background-color: #0f4272;
+}
+
+/* Personalizza lo sfondo del secondo carosello */
+#secondCarousel {
+  background-color: #f8f9fa;
+}
+
+/* Personalizza il testo sulle immagini del secondo carosello */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+/* Aggiungi un bordo attorno alle immagini del carosello */
+.carousel-inner img {
+  border: 2px solid #0f4272;
+}
