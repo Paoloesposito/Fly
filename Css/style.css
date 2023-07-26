@@ -32,6 +32,13 @@
   color: white; /* Sostituisci con il tuo colore preferito per l'hover */
 }
 
+.navbar-nav .nav-item:hover .nav-link {
+  background-color: #f8f9fa; /* Cambia il colore di sfondo desiderato */
+  border: 1px solid #007bff; /* Cambia lo stile del contorno desiderato */
+  color: #007bff; /* Cambia il colore del testo durante l'hover */
+  border-radius: 100px; /* Aggiunge un bordo arrotondato */
+}
+
 /* Personalizza il colore di sfondo della NavBar */
 .bg-base {
   background-color: #0f4272;
@@ -70,4 +77,16 @@
 .rating-stars:hover {
   transform: scale(1.8); /* Ingrandisci leggermente la recensione */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiungi una leggera ombra */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card:hover {
+  transform: scale(
+    1.05
+  ); /* Cambia il valore 1.05 per regolare l'intensità dello scaling */
+  transition: transform 0.3s ease; /* Aggiunge una transizione fluida durante lo scaling */
 }
