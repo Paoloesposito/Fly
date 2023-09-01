@@ -1,0 +1,34 @@
+/* CSS HEX */
+--pickled-bluewood: #375268;
+--link-water: #d7e9f8;
+--bali-hai: #7f99b3;
+--loblolly: #b9c0c8;
+--hit-gray: #a6afb2;
+--sirocco: #6e7473;
+--pigeon-post: #a6c0d5;
+--gray-chateau: #9da2a8;
+--dolphin: #6e6c74;
+
+
+/* SCSS HEX */
+$pickled-bluewood: #375268;
+$link-water: #d7e9f8;
+$bali-hai: #7f99b3;
+$loblolly: #b9c0c8;
+$hit-gray: #a6afb2;
+$sirocco: #6e7473;
+$pigeon-post: #a6c0d5;
+$gray-chateau: #9da2a8;
+$dolphin: #6e6c74;
+
+
+/* SCSS RGB */
+--pickled-bluewood: rgba(55,82,104,1);
+--link-water: rgba(215,233,248,1);
+--bali-hai: rgba(127,153,179,1);
+--loblolly: rgba(185,192,200,1);
+--hit-gray: rgba(166,175,178,1);
+--sirocco: rgba(110,116,115,1);
+--pigeon-post: rgba(166,192,213,1);
+--gray-chateau: rgba(157,162,168,1);
+--dolphin: rgba(110,108,116,1);

@@ -41,7 +41,13 @@
 
 /* Personalizza il colore di sfondo della NavBar */
 .bg-base {
-  background-color: #0f4272;
+  background-color: white;
+}
+.bg-footer {
+  background-color: rgba(55, 82, 104, 1);
+}
+.bg-2 {
+  background-color: rgba(185, 192, 200, 1);
 }
 
 /* Personalizza lo sfondo del secondo carosello */
@@ -79,9 +85,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiungi una leggera ombra */
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .card:hover {
