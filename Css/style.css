@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(185, 192, 200, 1);
+}
+
 .navbar-nav {
   flex-direction: row;
   justify-content: center;
@@ -18,7 +22,7 @@
 .navbar-nav .nav-link {
   font-size: 20px;
   margin: 0 15px;
-  color: blue;
+  color: rgba(55, 82, 104, 1);
 }
 
 .navbar {
@@ -34,7 +38,7 @@
 
 .navbar-nav .nav-item:hover .nav-link {
   background-color: #f8f9fa; /* Cambia il colore di sfondo desiderato */
-  border: 1px solid #007bff; /* Cambia lo stile del contorno desiderato */
+  border: 1px solid rgba(55, 82, 104, 1); /* Cambia lo stile del contorno desiderato */
   color: #007bff; /* Cambia il colore del testo durante l'hover */
   border-radius: 100px; /* Aggiunge un bordo arrotondato */
 }
@@ -90,9 +94,19 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.bold {
+  font-weight: bold;
+}
 .card:hover {
   transform: scale(
     1.05
   ); /* Cambia il valore 1.05 per regolare l'intensità dello scaling */
   transition: transform 0.3s ease; /* Aggiunge una transizione fluida durante lo scaling */
+}
+.col-hoover:hover {
+  color: red;
+}
+.download-img {
+  width: 40px; /* Imposta la larghezza */
+  height: auto; /* Altezza automatica per mantenere il rapporto d'aspetto */
 }

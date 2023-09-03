@@ -39,11 +39,11 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link bold" href="#">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle bold"
                 href="#"
                 id="navbarDropdownServizi"
                 role="button"
@@ -53,13 +53,29 @@
                 Servizi
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownServizi">
-                <li><a class="dropdown-item" href="#">Servizio 1</a></li>
-                <li><a class="dropdown-item" href="#">Servizio 2</a></li>
-                <li><a class="dropdown-item" href="#">Servizio 3</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Disinfestazione Blatte</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Disinfestazione Vespe e Zanzare</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Disnfestazione Terme</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Contatti</a>
+              <a class="nav-link bold" href="index.html"
+                >I Nostri Certificati</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bold" href="#diconodinoi">Dicono di Noi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bold" href="#contatti">Contatti</a>
             </li>
             <li class="nav-item">
               <a
@@ -157,15 +173,30 @@
       <!-- Card Section -->
       <div class="container mt-5">
         <div class="row">
+          <div
+            class="col-md-12 text-center"
+            style="color: rgba(55, 82, 104, 1)"
+          >
+            <h2 class="bold">Benvenuti ai Nostri Servizi di Disinfestazione</h2>
+            <p>
+              Rimani Aggiornato e Scopri le diverse soluzioni che offriamo per
+              mantenere il tuo ambiente libero da parassiti.
+            </p>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-md-4">
             <div class="card">
               <img
-                src="Assets/Foto 1.jpg"
+                src="Assets/disinfestazione-3.jpg"
                 class="card-img-top"
                 alt="Card Image 1"
               />
-              <div class="card-body">
-                <h5 class="card-title">Elemento 1</h5>
+              <div
+                class="card-body"
+                style="background-color: rgba(215, 233, 248, 1)"
+              >
+                <h5 class="card-title">Disinfestazione Blatte</h5>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Laborum, architecto sequi? Asperiores labore quibusdam
@@ -179,12 +210,15 @@
           <div class="col-md-4">
             <div class="card">
               <img
-                src="Assets/Foto 1.jpg"
+                src="Assets/images 3.jpeg"
                 class="card-img-top"
                 alt="Card Image 2"
               />
-              <div class="card-body">
-                <h5 class="card-title">Elemento 2</h5>
+              <div
+                class="card-body"
+                style="background-color: rgba(215, 233, 248, 1)"
+              >
+                <h5 class="card-title">Disinfestazione Zanzare</h5>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Laborum, architecto sequi? Asperiores labore quibusdam
@@ -198,12 +232,15 @@
           <div class="col-md-4">
             <div class="card">
               <img
-                src="Assets/Foto 1.jpg"
+                src="Assets/images.jpeg"
                 class="card-img-top"
                 alt="Card Image 3"
               />
-              <div class="card-body">
-                <h5 class="card-title">Elemento 3</h5>
+              <div
+                class="card-body"
+                style="background-color: rgba(215, 233, 248, 1)"
+              >
+                <h5 class="card-title">Disinfestazione Terme</h5>
                 <p class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Laborum, architecto sequi? Asperiores labore quibusdam
@@ -238,8 +275,8 @@
               alt="Image 4"
             />
             <div class="carousel-caption">
-              <h3>Titolo 1</h3>
-              <p>Descrizione dell'immagine 1.</p>
+              <h3>La vostra pace, la nostra missione</h3>
+              <p>Disinfestazione rapida e sicura</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -249,8 +286,8 @@
               alt="Image 4"
             />
             <div class="carousel-caption">
-              <h3>Titolo 2</h3>
-              <p>Descrizione dell'immagine 2.</p>
+              <h3>Dite addio a insetti e parassiti.</h3>
+              <p>Prendetevi indietro la vostra casa.</p>
             </div>
           </div>
           <div class="carousel-item">
@@ -260,8 +297,8 @@
               alt="Image 4"
             />
             <div class="carousel-caption">
-              <h3>Titolo 3</h3>
-              <p>Descrizione dell'immagine 3.</p>
+              <h3>Oltre la pulizia, verso la protezione</h3>
+              <p>soluzioni di disinfestazione su misura per ogni necessità</p>
             </div>
           </div>
         </div>
@@ -287,8 +324,10 @@
 
       <hr />
       <!-- Sezione Recensioni -->
-      <div class="container mt-5">
-        <h2 class="text-center">Dicono di Noi</h2>
+      <div class="container mt-5 bg-2" id="diconodinoi">
+        <h2 class="text-center bold" style="color: rgba(55, 82, 104, 1)">
+          Dicono di Noi
+        </h2>
         <div
           id="testimonialCarousel"
           class="carousel slide mt-4"
@@ -298,7 +337,10 @@
             <!-- Recensione 1 -->
             <div class="carousel-item active">
               <div class="row justify-content-center">
-                <div class="col-md-6 testimonial-card">
+                <div
+                  class="col-md-6 testimonial-card"
+                  style="color: rgba(55, 82, 104, 1)"
+                >
                   <img src="Assets/utente.jpg" alt="Foto Cliente 1" />
                   <h4>Nome Cliente 1</h4>
                   <p>
@@ -316,7 +358,10 @@
             <!-- Recensione 2 -->
             <div class="carousel-item">
               <div class="row justify-content-center">
-                <div class="col-md-6 testimonial-card">
+                <div
+                  class="col-md-6 testimonial-card"
+                  style="color: rgba(55, 82, 104, 1)"
+                >
                   <img src="Assets/images.png" alt="Foto Cliente 2" />
                   <h4>Nome Cliente 2</h4>
                   <p>
@@ -354,17 +399,25 @@
       </div>
       <hr />
       <!-- section contatti -->
-      <div class="container contact-form">
+      <div class="container contact-form" id="contatti">
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <div class="d-flex flex-column align-items-center">
+            <div
+              class="d-flex flex-column align-items-center"
+              style="color: rgba(55, 82, 104, 1)"
+            >
               <h3>Contatti</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Mollitia sapiente consequatur impedit deleniti voluptas
-                consectetur totam voluptate laboriosam obcaecati,
-                necessitatibus, cumque est iste ad! Veritatis id officiis nobis
-                dicta totam!
+                Se sei stanco di convivere con insetti indesiderati, roditori o
+                altri parassiti, sei nel posto giusto. Compila il modulo
+                sottostante per richiedere una consulenza gratuita o per avere
+                maggiori informazioni sui nostri servizi di disinfestazione. Un
+                nostro esperto vi contatterà nel più breve tempo possibile per
+                discutere le vostre esigenze e proporre una soluzione su misura.
+                <br />
+                📞 Preferite parlare direttamente con un nostro consulente?
+                Chiamateci al [081-333 33 33].
+                <br />📧 Oppure inviateci una mail
               </p>
             </div>
           </div>
@@ -408,27 +461,109 @@
     <footer class="bg-footer text-dark mt-5 py-4">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <h5>Link Utili</h5>
+          <div class="col-md-3">
+            <h5 class="bold" style="color: rgba(215, 233, 248, 1)">
+              Link Utili
+            </h5>
             <ul class="list-unstyled">
-              <li><a href="#">Link 1</a></li>
-              <li><a href="#">Link 2</a></li>
-              <li><a href="#">Link 3</a></li>
+              <li>
+                <a
+                  href="/PALETTE/Palette.png"
+                  download="Palette.png"
+                  style="text-decoration: none; color: rgba(215, 233, 248, 1)"
+                  >Palette Colori</a
+                >
+              </li>
+              <li>
+                <a
+                  href="Assets/Flycoop-logo.png"
+                  download="Logo.png"
+                  style="text-decoration: none; color: rgba(215, 233, 248, 1)"
+                  >Logo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="Assets/iso.png"
+                  download="Iso 9001"
+                  style="text-decoration: none; color: rgba(215, 233, 248, 1)"
+                  >Iso 9001</a
+                >
+              </li>
             </ul>
           </div>
-          <div class="col-md-4">
-            <h5>Dati Societari</h5>
+          <div class="col-md-3" style="color: rgba(215, 233, 248, 1)">
+            <h5 class="bold" style="color: rgba(215, 233, 248, 1)">
+              Dati Societari
+            </h5>
             <p>Indirizzo: Via Example, 123</p>
             <p>Email: info@example.com</p>
             <p>Telefono: +1 123-456-7890</p>
             <p>P.IVA: 999999999</p>
           </div>
-          <div class="col-md-4">
-            <h5>Pagine</h5>
+          <div class="col-md-2">
+            <h5 class="bold" style="color: rgba(215, 233, 248, 1)">Pagine</h5>
             <ul class="list-unstyled">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Servizi</a></li>
-              <li><a href="#">Contatti</a></li>
+              <li>
+                <a
+                  href="#"
+                  style="text-decoration: none; color: rgba(215, 233, 248, 1)"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  style="text-decoration: none; color: rgba(215, 233, 248, 1)"
+                  >Servizi</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  style="text-decoration: none; color: rgba(215, 233, 248, 1)"
+                  >Contatti</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 text-center mt-4">
+            <h5 class="bold" style="color: rgba(215, 233, 248, 1)">
+              I Nostri Certificati
+            </h5>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="Assets/logo1.png" download>
+                  <img
+                    class="download-img"
+                    src="Assets/logo1.png"
+                    alt="File 1"
+                  />
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="Assets/iso.png" download>
+                  <img class="download-img" src="Assets/iso.png" alt="File 2" />
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="Assets/logo3.jpeg" download>
+                  <img
+                    class="download-img"
+                    src="Assets/logo3.jpeg"
+                    alt="File 3"
+                  />
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="Assets/logo 4.png" download>
+                  <img
+                    class="download-img"
+                    src="Assets/logo 4.png"
+                    alt="File 4"
+                  />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
