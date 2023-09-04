@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(185, 192, 200, 1);
+  background-color: rgb(204, 205, 206);
 }
 
 .navbar-nav {
@@ -51,7 +51,7 @@ body {
   background-color: rgba(55, 82, 104, 1);
 }
 .bg-2 {
-  background-color: rgba(185, 192, 200, 1);
+  background-color: rgb(204, 205, 206);
 }
 
 /* Personalizza lo sfondo del secondo carosello */
