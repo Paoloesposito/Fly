@@ -37,8 +37,8 @@ body {
 }
 
 .navbar-nav .nav-item:hover .nav-link {
-  background-color: #f8f9fa; /* Cambia il colore di sfondo desiderato */
-  border: 1px solid rgba(55, 82, 104, 1); /* Cambia lo stile del contorno desiderato */
+  /* background-color: #f8f9fa; Cambia il colore di sfondo desiderato */
+  /* border: 1px solid rgba(55, 82, 104, 1); Cambia lo stile del contorno desiderato */
   color: #007bff; /* Cambia il colore del testo durante l'hover */
   border-radius: 100px; /* Aggiunge un bordo arrotondato */
 }
